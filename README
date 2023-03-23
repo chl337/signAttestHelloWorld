@@ -1,6 +1,8 @@
 1)Build: make all
 2)Start with Requester: make signAttReq
+- Ongoing server: creates his KeyPair, publishes his PubKey, waits for IDENTIFY requests on connection, responds with signed messages.
 3)In an new Terminal start RemotePeer: make signAttPeer
+- Knows PubKey of Server, on connection challenges server to IDENTIFY itself by attesting the signature of the response. 
 
 - PublicKey of Requester is in "./keys/key.pub"
 
