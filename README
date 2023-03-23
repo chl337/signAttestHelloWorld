@@ -1,0 +1,7 @@
+1)Build: make all
+2)Start with Requester: make signAttReq
+3)In an new Terminal start RemotePeer: make signAttPeer
+
+- PublicKey of Requester is in "./keys/key.pub"
+
+4)Remove all: make clean
